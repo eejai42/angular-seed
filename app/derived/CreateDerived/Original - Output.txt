@@ -1,0 +1,73 @@
+
+    Setting: PrimaryGSheetKey
+    Setting: ProjectName
+    Setting: DisplayName
+    Setting: BaseNamespace
+    Setting: GoogleResourceList
+    Setting: GoogleResourceList
+    Setting: GoogleResourceList
+    Setting: GoogleResourceList
+    Setting: ChameleonCodeHostUri
+    Setting: ChameleonCodeSDKUri
+    Setting: ChameleonCodeSDKPath
+    Setting: Language1
+    Setting: Language2
+    AdditionalResource: Settings
+    AdditionalResource: AdditionalResources
+    AdditionalResource: ProjectIntro
+    AdditionalResource: Entities
+    AdditionalResource: RevenueOpportunity
+    AdditionalResource: Hunt1Puzzles
+    AdditionalResource: Hunt2Puzzles
+    AdditionalResource: Hunt1Locations
+    AdditionalResource: Hunt2Locations
+    AdditionalResource: Hunt1Characters
+    AdditionalResource: Hunt2Characters
+    AdditionalResource: AppStates
+    RevenueOpportunity: TitleSponsor
+    RevenueOpportunity: PrizeSponsor
+    RevenueOpportunity: ClueSponsor
+    RevenueOpportunity: RechargeSponsor
+    RevenueOpportunity: AppCost
+    RevenueOpportunity: BuyGems
+    RevenueOpportunity: SkipRecharge
+    Hunt1Locations: Location1
+    Hunt1Locations: Location2
+    Hunt1Locations: Location3
+    Hunt2Locations: Barrymore Theater
+    Hunt2Locations: Stone Fence
+    Hunt2Locations: One Barrel
+    Hunt2Locations: Alchemy
+    Hunt2Locations: The Mermaid Cafe
+    Hunt1Characters: Character1
+    Hunt1Characters: Character2
+    Hunt2Characters: Anna Rodriguez
+    Hunt2Characters: Hal White
+    Hunt2Characters: George Beaufort
+    Hunt2Characters: Diamond Jones
+    Hunt2Characters: Danny Chang
+    AppState: App
+    AppState: Login
+    AppState: Story
+    AppState: Newuser
+    AppState: Puzzle
+    AppState: Treat
+    AppState: Gameover
+    AppState: Leaderboard
+    AppState: Lifecode
+    AppState: Redeem
+    AppState: Dashboard
+    AppState: Settings
+    AppState: Logout
+    AppState: Admin
+    AppState: Cities
+    AppState: City
+    AppState: Characters
+    AppState: Character
+    AppState: Locations
+    AppState: Location
+    AppState: Hunts
+    AppState: Hunt
+    AppState: HuntPlanner
+    AppState: Users
+    AppState: User

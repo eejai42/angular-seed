@@ -2,42 +2,50 @@
 <!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-  <link rel="stylesheet" href="app.css">
-  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body>
-  <ul class="menu">
-    <li><a href="#!/view1">view1</a></li>
-    <li><a href="#!/view2">view2</a></li>
-  </ul>
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js">
+<!--<![endif]-->
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>My AngularJS App</title><meta name="description" content="" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css" /><link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css" /><link rel="stylesheet" href="app.css" /><script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script></head><body><ul class="menu"><li><a href="#!/story">Story</a></li><li><a href="#!/leaderboard">Leaderboard</a></li><li><a href="#!/lifecode">Lifecode</a></li><li><a href="#!/redeem">Redeem</a></li><li><a href="#!/dashboard">Dashboard</a></li><li><a href="#!/settings">Settings</a></li><li><a href="#!/logout">Logout</a></li><li><a href="#!/cities">Cities</a></li><li><a href="#!/characters">Characters</a></li><li><a href="#!/locations">Locations</a></li><li><a href="#!/hunts">Hunts</a></li><li><a href="#!/users">Users</a></li></ul>
 
-  <!--[if lt IE 7]>
+
+
+   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+    <div ng-view=""></div>
 
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
-  <!-- In production use:
+    <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="view1/view1.js"></script>
-  <script src="view2/view2.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
-</body>
-</html>
+  
+      <script src="bower_components/angular/angular.js"></script><script src="bower_components/angular-route/angular-route.js"></script>
+
+
+
+      <script src="GameState/Story/Story.js"></script>
+  
+      <script src="GameState/Leaderboard/Leaderboard.js"></script>
+  
+      <script src="GameState/Lifecode/Lifecode.js"></script>
+  
+      <script src="GameState/Redeem/Redeem.js"></script>
+  
+      <script src="SystemState/Dashboard/Dashboard.js"></script>
+  
+      <script src="SystemState/Settings/Settings.js"></script>
+  
+      <script src="SystemState/Logout/Logout.js"></script>
+  
+      <script src="AdminState/Cities/Cities.js"></script>
+  
+      <script src="AdminState/Characters/Characters.js"></script>
+  
+      <script src="AdminState/Locations/Locations.js"></script>
+  
+      <script src="AdminState/Hunts/Hunts.js"></script>
+  
+      <script src="AdminState/Users/Users.js"></script>
+  
+
+
+  <script src="app.js"></script><script src="components/version/version.js"></script><script src="components/version/version-directive.js"></script><script src="components/version/interpolate-filter.js"></script></body></html>
